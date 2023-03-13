@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "public": "public",
+    "site": "cordsmobileupdate",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
+
+
